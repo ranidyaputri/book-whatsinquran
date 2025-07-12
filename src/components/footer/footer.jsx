@@ -3,9 +3,9 @@ import React from 'react'
 function Footer() {
   return (
     <>
-    <div className="footer bg-[#33187A] text-white px-[80px] py-[86px] rounded-t-[50px]">
-        <div className="footer-text flex justify-between items-center">
-            <h4 className="text-[40px] font-bold w-[260px]">
+    <div className="footer bg-[#33187A] text-white px-[40px] md:px-[80px] py-[86px] rounded-t-[50px]">
+        <div className="footer-text flex flex-col sm:flex-row justify-between sm:items-center">
+            <h4 className="text-[30px] md:text-[40px] mb-[20px] md:mb-0 font-bold w-[260px]">
                 Contact Us For More Info
             </h4>
             <div className="contact-list">
@@ -22,7 +22,7 @@ function Footer() {
                     </svg>
                     <a href="https://wa.me/60145197384" target="_blank" className="ml-[13px]">+60 145197384</a>
                 </div>
-                <div className="flex items-center mt-[22px] mb-[12px]">
+                <div className="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width={30} height={30} viewBox="0 0 24 24">
                         <path fill="#BA84FE" d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2zm-2 0l-8 5l-8-5zm0 12H4V8l8 5l8-5z"></path>
                     </svg>
@@ -31,8 +31,8 @@ function Footer() {
             </div>
         </div>
     </div>
-    <div className="copyright w-full bg-[#FFA7E1] text-[#33187A] py-[18px]">
-            <p className="text-center">Copyright © 2025 by App and Web Dev What’s in Quran Team </p>
+    <div className="copyright w-full bg-[#FFA7E1] text-[#33187A] py-[18px] px-[20px] sm:px-0">
+            <p className="text-center text-xs md:text-base">Copyright © 2025 by App and Web Dev What's in Quran Team </p>
     </div>
     </>
   )

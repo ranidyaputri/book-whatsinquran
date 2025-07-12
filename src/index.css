@@ -3,4 +3,11 @@ body{
     font-family: "Plus Jakarta Sans", sans-serif;
     background-color: #F5F2FA;
     text-color: #3C3A3A;
+
+    .triangle-bottomright {
+      width: 0;
+      height: 0;
+      border-bottom: 20px solid red;
+      border-left: 500px solid transparent;
+    }
 }
